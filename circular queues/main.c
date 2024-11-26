@@ -4,7 +4,7 @@
 
 struct Queue {
 	char *data;     // Character pointer that store the actual data in the queue.
-	int head;       // Represents the index of the start(Head) of the queue.
+	int head;       // Represents the index of the start(Head) of queue.
 	int tail;       // Represents the index of the end(Tail) of the queue.
 	int size;       // Represents the current number of elements in the queue.
 	int capacity;   // Represents the maximum number of elements that the  queue can hold.
